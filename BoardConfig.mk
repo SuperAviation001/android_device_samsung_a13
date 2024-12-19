@@ -19,10 +19,10 @@ include device/samsung/a21s-common/BoardConfigCommon.mk
 ## Inherit from the proprietary configuration
 include vendor/samsung/a21snsxx/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/a21snsxx
+DEVICE_PATH := device/samsung/a13
 
 ## OTA TARGET
-TARGET_OTA_ASSERT_DEVICE := a21s,a21snsxx
+TARGET_OTA_ASSERT_DEVICE := a13
 
 ## Kernel
 TARGET_KERNEL_CONFIG := exynos850-a21snsxx_defconfig
