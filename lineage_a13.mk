@@ -31,11 +31,11 @@ TARGET_SCREEN_WIDTH := 720
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := a21snsxx
-PRODUCT_NAME := lineage_a21snsxx
+PRODUCT_DEVICE := a13
+PRODUCT_NAME := lineage_a13
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A217F
+PRODUCT_MODEL := SM-A135F
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_SHIPPING_API_LEVEL := 34
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
