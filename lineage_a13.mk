@@ -24,8 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/samsung/a21snsxx/device.mk)
 
 ## Boot Animation
-TARGET_SCREEN_HEIGHT := 1600
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 2408
+TARGET_SCREEN_WIDTH := 1080
 
 ## Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
